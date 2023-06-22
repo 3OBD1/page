@@ -1,0 +1,11 @@
+mystring = "i love python"
+print(mystring[1])
+print(mystring[3])
+print(mystring[2])
+print(mystring[-3])
+print(mystring[8:11])
+print("@" *20)
+print(mystring[:8])
+print(mystring[3:])
+print(mystring[:])
+print(mystring[::-1])

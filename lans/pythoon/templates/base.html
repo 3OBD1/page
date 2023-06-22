@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" media="screen" href={{
+    url_for('static',filename='css/main.css')}} />
+    <!--التعليق الأول هتلاقيه تحت خالص -->
+
+    {% if file_link %}
+    <div>
+      <link rel="stylesheet" type="text/css" media="screen" href={{
+      url_for('static',filename="css/" + file_link + ".css")}} />
+    </div>
+    {% endif %}
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="u can add alot of this .css" /> -->
+    <!--<script src="main.js"></script>-->
+  </head>
+  <body>
+    <!--{% if file_link %}
+    <!--<div>{{ file_link }}</div> <!-- دا اسم الملف اللي معمول هناك ف الصفحه -->
+    <!--{% endif %} -->
+    {% block body %} {% endblock %}
+    <script src="{{ url_for('static',filename='js/jquery-3.6.4.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='js/main.js') }}"></script>
+  </body>
+</html>
+
+<!-- url_for('اسم الفولدر ',filename='الفولدر اللي جواالفولدر/اسم الملف 
+  '-->

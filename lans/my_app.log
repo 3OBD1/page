@@ -1,0 +1,11 @@
+  root  
+ root CRITICAL 
+ root CRITICAL This Is Mritical Message 
+ root CRITICAL This Is critical Message 
+2023-04-16 11:13:32,579 root CRITICAL This Is critical Message 
+2023-04-16 11:16:32,898 root ERROR This Is error Message 
+2023-04-16 11:17:36,418 root ERROR This Is error Message 
+2023-04-16 12:00:19,195 root WARNING This Is warning Message 
+2023-04-16 12:05:09,227 root WARNING This Is warning Message  
+2023-04-16 12:06:01,642 3obd WARNING This Is warning Message  
+2023-04-16 12:06:12,585 3obd WARNING This Is warning Message  

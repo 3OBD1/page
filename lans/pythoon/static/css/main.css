@@ -1,0 +1,18 @@
+body {
+    background-color:gray ;
+    font-family:Arial;
+}
+
+.page-head,
+.page-description{
+    text-align: center
+}
+.page-head { 
+    font-size: 40px;
+    margin: 0 0;
+}
+.page-description {
+    font-size: 30px;
+    margin:0 0
+
+}
